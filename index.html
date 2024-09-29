@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datdil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fbd100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #fbd100;
+        }
+
+        .intro {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fbd100; /* 色を変更 */
+            color: white;
+        }
+
+        .intro h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .gallery {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .gallery h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #fbd100;
+        }
+
+        .gallery-grid {
+            display: flex; /* フレックスボックスを使用 */
+            justify-content: center; /* 中央揃え */
+            gap: 10px;
+            flex-wrap: wrap; /* 行の折り返しを許可 */
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            width: 300px; /* 固定幅を設定 */
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .about {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        .about h2 {
+            font-size: 28px;
+            color: #fbd100;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-media {
+            margin-bottom: 10px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #fbd100;
+        }
+
+        .newsletter {
+            margin-top: 10px;
+        }
+
+        .newsletter input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .newsletter button {
+            padding: 10px 15px;
+            background-color: #fbd100;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .newsletter button:hover {
+            background-color: #fbd100;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Datdil</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="privacy_policy.html">Privacy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Dat - Simplest scheduling app</h1>
+        <p>No registration required, ready to use</p>
+      
+    </section>
+
+    <section class="gallery">
+        <h2></h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"> <img src="Images/TopImage2.jpg" alt="スクリーンショット1"  height="350px"></div>
+            <div class="gallery-item"><img src="Images/TopImage1.jpg" alt="スクリーンショット2"  height="350px"></div>
+            <div class="gallery-item"><img src="Images/TopImage3.jpg" alt="スクリーンショット3" height="350px"></div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>【Easy to use】</h2>
+        <p>This application makes operation easy to understand.</p>
+
+        <h2>【Customizable notifications】</h2>
+        <p>A full range of notification functions exist.</p>
+      
+    </section>
+
+    <footer>
+      
+        <p>&copy; Datdil. All Rights Reserved.</p>
+        <p>Support email-jstudiokoizumis3997@gmail.com</p>
+    </footer>
+</body>
+</html>
